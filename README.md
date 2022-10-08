@@ -13,6 +13,8 @@ JAVASCRIPT
 
 https://effectparallax.netlify.app/.
 
+Tutorial: https://lnkd.in/dPMVyMyj
+
 
 ## Developer
 
