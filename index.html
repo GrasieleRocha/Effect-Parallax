@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Parallax</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <section>
+      <img src="./img/bg.jpg" id="bg">
+      <img src="./img/moon.png" id="moon">
+      <img src="./img/mountain.png" id="mountain">
+      <img src="./img/road.png" id="road">
+      <h2 id="text">Grasiele Rocha</h2>
+
+    </section>
+    <h1>Efeito Parallax...</h1>
+    <div class="information">
+    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At voluptatem eos aliquam atque eum, quidem earum ipsa molestias dignissimos harum culpa, dolorum sapiente consequatur doloribus. Blanditiis sed modi beatae? Iusto tempore assumenda ab asperiores earum cum quia iste nemo ullam. Perferendis reiciendis laudantium expedita veniam soluta perspiciatis commodi, eligendi voluptatibus odio officiis vel amet, exercitationem sunt atque at optio itaque, quae consequuntur eveniet quidem aliquam aut. Possimus eius, facere accusantium vitae inventore, cumque saepe animi incidunt corporis, totam suscipit velit aut magni ratione sed consectetur natus adipisci maiores nemo aliquid! Quisquam eos voluptas eligendi fugit magni molestias tempora maiores animi ipsum ut veniam iste vero laboriosam eveniet, nam fuga dolores ab hic, accusantium optio explicabo! Quam error recusandae necessitatibus rerum quia mollitia natus inventore tempore minima doloremque provident, hic in velit odit. Tenetur, ab ipsam. Inventore vero illo, vel a iusto esse ad iure ipsam dolor laborum sunt reprehenderit facilis nemo aperiam? Neque sapiente nemo voluptates dolore dolorum soluta itaque a quo, porro, accusamus fugiat maxime iste. Aliquid deleniti officia magnam asperiores veritatis in qui fuga sed inventore totam corporis possimus laboriosam neque consequatur temporibus illo debitis iste, quia ducimus aliquam nesciunt, recusandae doloremque maxime quaerat? Debitis autem nisi magnam pariatur fugiat qui voluptate perspiciatis dolore maiores, veritatis aspernatur! Eos reprehenderit velit et vel saepe rem dignissimos, ab eius modi, voluptas repellat magnam repudiandae qui aut atque, ea voluptate voluptates officiis enim nisi officia quas ad. Sint quam maxime iusto, eos laboriosam, possimus expedita commodi, est maiores nisi veritatis quae minus ea! Perspiciatis quisquam est accusantium et. Id quibusdam soluta alias fugiat voluptate provident eos illum similique impedit recusandae voluptas distinctio quae ipsam, sint eaque magnam dicta temporibus itaque sunt omnis ex. Dolores rerum laboriosam vitae repellendus reiciendis doloremque sapiente amet quaerat, iusto, a deserunt. Cum amet reiciendis hic voluptates.</P>
+  </div>
+    <script type="text/javascript">
+      let bg = document.getElementById("bg");
+      let moon = document.getElementById("moon");
+      let mountain = document.getElementById("mountain");
+      let road = document.getElementById("road");
+      let text = document.getElementById("text");
+
+      window.addEventListener('scroll', function(){
+        var value = window.scrollY;
+
+        bg.style.top= value * 0.5 + 'px';
+        moon.style.left = -value * 0.5 + 'px';
+        mountain.style.top = -value * 0.15 + 'px';
+        road.style.top = value * 0.15 + 'px';
+        text.style.top = value * 1 + 'px';
+      });
+    </script>
+
+  </body>
+</html>
