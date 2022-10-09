@@ -11,7 +11,7 @@ JAVASCRIPT
 
 ## 🚀 Deploy
 
-https://effectparallax.netlify.app/.
+App no ar: https://effectparallax.netlify.app/.
 
 Tutorial: https://lnkd.in/dPMVyMyj
 
