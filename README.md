@@ -5,8 +5,8 @@
 
 🛠️Construído com
 
-HTML
-CSS
+HTML <br>
+CSS <br>
 JAVASCRIPT
 
 ## 🚀 Deploy
