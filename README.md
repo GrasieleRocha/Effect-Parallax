@@ -3,7 +3,7 @@
 ![in Development](https://img.shields.io/badge/Project%20-%20Parallax-green) 
 
 
-🛠️Construído com
+🛠️Construído com...
 
 HTML <br>
 CSS <br>
