@@ -9,7 +9,7 @@ HTML <br>
 CSS <br>
 JAVASCRIPT
 
-## 🚀 App no ar.
+## 🚀 App no ar
 
 App no ar: https://effectparallax.netlify.app/.
 
