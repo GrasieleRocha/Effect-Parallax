@@ -1,6 +1,6 @@
 # Effect-Parallax
 
-![in Development](https://img.shields.io/badge/Project%20-%20Parallax-green) 
+![in Development](https://img.shields.io/badge/Project%20-%20Parallax-blue) 
 
 
 🛠️Construído com
