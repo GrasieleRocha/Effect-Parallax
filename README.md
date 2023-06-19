@@ -15,7 +15,7 @@ The parallax effect is based on an optical illusion, as it gives the impression 
 ### languages
 - `HTML`
 - `CSS`
-- `JavaScript`
+- `JavaScript`.
 
 ### Tools
 - `VS Code`
